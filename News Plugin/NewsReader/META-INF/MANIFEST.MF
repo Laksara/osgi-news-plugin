@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: NewsReader
+Bundle-SymbolicName: NewsReader
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: newsreader.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: NewsReader
+Import-Package: newsplugin,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: newsreader
